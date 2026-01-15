@@ -1,0 +1,102 @@
+/* Add to your existing CSS or create Signup.css */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.signup-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.signup-box h1 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  color: #333;
+  text-align: center;
+}
+
+.signup-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.signup-box input {
+  width: 100%;
+  max-width: 350px;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  color: #333;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.signup-box input:focus {
+  border-color: #9c27b0;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(156, 39, 176, 0.2);
+}
+
+.signup-box button {
+  width: 100%;
+  max-width: 350px;
+  padding: 14px;
+  margin: 20px 0 10px;
+  background: linear-gradient(135deg, #9c27b0, #3f51b5);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.signup-box button:hover {
+  background: linear-gradient(135deg, #3f51b5, #9c27b0);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(156, 39, 176, 0.4);
+}
+
+.signup-box .message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  background: rgba(156, 39, 176, 0.1);
+  border: 1px solid rgba(156, 39, 176, 0.3);
+  color: #ffa8a8;
+  font-size: 14px;
+}
+
+.signup-box .message.success {
+  color: #8aff80;
+  background: rgba(76, 175, 80, 0.1);
+  border-color: rgba(76, 175, 80, 0.3);
+}
+
+.signup-box .info-note {
+  margin-top: 25px;
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: italic;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
